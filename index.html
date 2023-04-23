@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+  .coolfont{
+    font-family: 'Montserrat', sans-serif;
+  }
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-light-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:250px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64 w3-text-white"><b>Hannah<br>Schagene</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-text-white">Home</a> 
+    <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-text-white">About</a>  
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-light-blue w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Hannah Schagene</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:330px;margin-right:50px">
+
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-xxxlarge w3-text-light-blue"><b>Portfolio</b></h1>
+  </div>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-col l6 m4 w3-container w3-margin-bottom">
+      <a href="page2.html" class="w3-hover-grayscale"> <!-- makes image into a link -->
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-light-grey w3-padding">Ohio River Industrial Pollution</div>
+          <img src="images/NarrativeMap1Preview.jpg" alt="Narrative Map" style="width:100%">
+        </div>
+      </a> <!-- end link -->
+    </div>
+    <div class="w3-col l6 m4 w3-container w3-margin-bottom">
+      <a href="page3.html" class="w3-hover-grayscale"> <!-- makes image into a link -->
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-light-grey w3-padding">Pacific Northwest Volcano Hazards</div>
+          <img src="images/PNWVolcanoHazardspreview.jpg" alt="Hazards" style="width:100%">
+        </div>
+      </a> <!-- end link -->
+    </div>
+  </div>
+
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-col l6 m3 w3-container w3-margin-bottom">
+      <a href="page4.html" class="w3-hover-grayscale"> <!-- makes image into a link -->
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-light-grey w3-padding">Louisville Land Use Change</div>
+          <img src="images/LandUseChangeLouisville.jpg" alt="Louisville Land Use" style="width:100%">
+          </iframe>
+        </div>
+      </a> <!-- end link -->
+    </div>
+    <div class="w3-col l6 m3 w3-container w3-margin-bottom">
+      <a href="page5.html" class="w3-hover-grayscale"> <!-- makes image into a link -->
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-light-grey w3-padding">University of Kentucky Tree Canopy</div>
+          <img src="images/TreeCanopy2.jpg" alt="UK Tree Canopy" style="width:100%">
+          </iframe>
+        </div>
+      </a> <!-- end link -->
+    </div>
+  </div>
+  
+  <!-- Third Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-col l6 m3 w3-container w3-margin-bottom">
+      <a href="page5.html" class="w3-hover-grayscale"> <!-- makes image into a link -->
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-light-grey w3-padding">Kentucky Counties Land Use</div>
+          <img src="images/KY_Landcover.jpg" alt="Kentucky Counties" style="width:100%">
+        </div>
+      </a> <!-- end link -->
+    </div>
+    <div class="w3-col l6 m3 w3-container w3-margin-bottom">
+      <a href="page6.html" class="w3-hover-grayscale"> <!-- makes image into a link -->
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-light-grey w3-padding">Red River Gorge LIDAR Render</div>
+          <img src="images/map01.jpg" alt="Red River Gorge Geological Area" style="width:100%">
+        </div>
+      </a> <!-- end link -->
+    </div>
+  </div>
+
+  
+  <!-- Fourth Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-col l6 m3 w3-container w3-margin-bottom">
+      <a href="page8.html" class="w3-hover-grayscale"> <!-- makes image into a link -->
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-light-grey w3-padding">The State of LGBTQ+ Rights</div>
+          <iframe src="https://studio.foursquare.com/public/42e9e673-ad65-42fa-8ee5-570ea6c7e4ca" title="The State of LGBTQ Rights" style="width:100%; height: 450px;">
+          </iframe>
+        </div>
+      </a> <!-- end link -->
+    </div>
+      <div class="w3-col l6 m3 w3-container w3-margin-bottom">
+        <a href="page6.html" class="w3-hover-grayscale"> <!-- makes image into a link -->
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-light-grey w3-padding">River River Gorge LIDAR Video</div>
+            <iframe src="https://www.youtube.com/embed/hi8l7bxGG6E" title="Red River Gorge LIDAR Video" style="width:100%; height: 450px;">
+            </iframe>
+          </div>
+        </a> <!-- end link -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
